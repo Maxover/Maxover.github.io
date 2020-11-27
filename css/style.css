@@ -5,6 +5,7 @@ body {
 
 }
 
+
 /* =========================== Container ============================= */
 .container {
     width: 100%;
@@ -147,3 +148,113 @@ body {
 .btn--right {
     padding: 22px 26px 22px 32px;
 }
+
+/* =========================== Section ============================= */
+
+.section {
+    padding: 100px 0;
+}
+
+.section__header {
+    width: 100%;
+    max-width: 555px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.section__title {
+    color: #061e37;
+    font-size: 45px;
+    font-weight: 400;
+}
+
+.section__subtitle {
+    color: #b0bec5;
+    font-size: 25px;
+    font-weight: 400;
+    margin: 14px 0 20px 0;
+}
+
+.section__text {
+    color: #b0bec5;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-bottom: 97px;
+}
+
+/* =========================== Tools ============================= */
+
+.tools {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tools__item {
+    width: 344px;
+    text-align: center;
+}
+
+.tools__title {
+    color: #061e37;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 20px 0 40px 0;
+}
+
+.tools__text {
+    color: #78909c;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 78px;
+}
+.tools > div {
+    display: inline-block;
+}
+
+.tools__btn {
+    text-align: center;
+    
+}
+.tools__btn a { 
+    padding: 22px 23px 22px 28px;
+
+    background-color: #1de9b6;
+    border-radius: 5px;
+    text-decoration: none;
+
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+
+.statistics {
+  background-color: turquoise;
+}
+.stat {
+    display: flex;
+}
+
+.stat__item {
+    flex: 1 1 0;
+    position: relative;
+}
+
+.stat__icon {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    z-index: 1;
+
+    transform: translateY(-50%);
+}
+.stat__num {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    padding: 57px 114px 57px 200px;
+}
+
